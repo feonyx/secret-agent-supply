@@ -1,7 +1,181 @@
 html {
-
+  font-size: 18px;
+  font-family: Helvetica;
 }
 
 body {
-  
+  background-color: white;
+  color: white;
+  justify-content: center;
+  margin: 0;
+}
+
+.container {
+  width: 960px;
+  height: auto;
+  max-height: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  height: 1.5rem;
+  width: auto;
+  margin: 0.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 0.66rem 0.5rem;
+}
+
+.title {
+  background-image: url("../images/moto.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 25rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 0.25rem;
+}
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+
+.new-arrival {
+  background-color: black;
+  margin: 9rem;
+  padding: 2rem 3rem;
+  width: 20rem;
+  top:
+}
+
+.navigation {
+  background-color: firebrick;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: auto 0.5rem;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.menu nav span {
+  display: inline-block;
+  padding: 0.75rem 0;
+}
+
+.promoted {
+  display: flex;
+  justify-content: center;
+}
+.product-grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.product {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 288px;
+  margin: 3rem 0;
+  border-top: 4px solid black;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+}
+
+.product-image {
+  display: flex;
+  height: 9rem;
+  width: 100%;
+  padding: 2rem 0;
+  align-items: center;
+  justify-content: center;
+}
+.product img {
+  max-width: 8rem;
+}
+
+.product p {
+  background-color: black;
+  width: 100%;
+  padding: 0.5rem 0;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.contact-info {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.ci {
+  width: 35%;
+}
+
+.contact-title {
+  background-color: black;
+  padding: 1rem 2rem;
+  margin: 0;
+}
+
+.contact-item {
+  color: black;
+  margin: 1px;
+}
+
+footer {
+  background-color: black;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
 }
